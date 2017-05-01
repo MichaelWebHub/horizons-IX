@@ -19,8 +19,11 @@ $(document).ready(function () {
         
         if ($(this).scrollTop() > viewportHeight) {
             $(".logo-appear").css("z-index", "-1");
-//            $(".logo-appear").css("opacity", "0");
         }
  
     });
+    
+    $(".menu-button").on("click", function() {
+        $(".menu ul").toggle(0, "hidden");
+    })
 })
