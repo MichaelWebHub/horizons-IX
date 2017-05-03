@@ -46,6 +46,7 @@ nav a:hover {
 
 header {
     height: 200vh;
+    min-height: 640px;
     min-width: 300px;
     margin: 0 auto;
 }
@@ -170,10 +171,11 @@ header {
     top: 115px;
     width: 100vw;
 }
+
 .menu ul li {
-    height: 20px;
+    height: 55.6px;
     padding: 5px;
-    line-height: 20px;
+    line-height: 55.6px;
 }
 
 .menu ul li:hover {
@@ -189,6 +191,10 @@ header {
 
         
 @media screen and (max-width: 768px) {
+    header {
+        height: 100vh;
+    }
+    
     .logo-mobile {
         display: block;
         min-height: 640px;
@@ -206,7 +212,7 @@ header {
 
 @media screen and (min-width: 1400px) {
     nav {
-        font-size: 25px;
+        font-size: 24px;
     }
 }
 
@@ -217,7 +223,7 @@ header {
 }
 
 @media screen and (min-width: 1920px) {
-    .element p, nav {
+    .element p {
         font-size: 40px;
     }
 }

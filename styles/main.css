@@ -1,6 +1,174 @@
 main {
-    height: 100vh;
     width: 100vw;
+    min-width: 300px;
+    height: 800vh;
     background: #fff;
     z-index: 1;
 }
+
+.org_block {
+    width: 100%;
+    height: 100vh;
+    min-height: 640px;
+/*    max-height: 1024px;*/
+/*    background: rgba(70, 70, 70, .25);*/
+}
+
+.org-text {
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.org-text article {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0 20px 0 20px;
+}
+
+.top-offset {
+    margin-top: 50px;
+}
+
+.org-text article h1 {
+    font-size: 40px;
+}
+
+.mb {
+    margin-bottom: 25px;
+}
+
+.hcolor-blue {
+    color: #669;
+}
+
+.hcolor-green {
+    color: #396;
+}
+
+.hcolor-brown {
+    color: #963;
+}
+
+.desktop-h1 {
+    opacity: 0;
+}
+
+.org-desc {
+/*    margin-top: 25px;*/
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons a {
+    color: #333;
+    font-size: 50px;
+    transition: color .3s;    
+}
+
+.org-text article p a:hover {
+    color: #669;
+}
+
+.org-image {
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.mt {
+    margin-top: 50px;
+}
+
+.org-image img {
+    width: 90%;
+}
+
+.mobile-h1 {
+    display: none;
+}
+
+@media screen and (max-width: 1350px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-h1 {
+        display: block;
+        padding-left: 10px;
+    }
+    
+    .desktop-h1, .icons {
+        display: none;
+    }
+    
+    .org-image, .org-text {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    
+    .org-text article {
+        width: 94%;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    .org-desc {
+        font-size: 1.3em;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .org-desc {
+        font-size: 1.5em;
+        line-height: 1.5;
+    }
+    
+    .org-text article h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .org-desc {
+        font-size: 1.7em;
+        line-height: 1.5;
+    }
+    
+    .org-text article h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 2400px) {
+    .org-desc {
+        font-size: 2.3em;
+        line-height: 1.5;
+    }
+    
+    .org-text article h1 {
+        font-size: 85px;
+    }
+}
+
+
+
+
+

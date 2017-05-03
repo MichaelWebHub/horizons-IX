@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="jquery-3.1.1.js"></script>
+    <script src="textilate/jquery.lettering-0.6.1.min.js"></script>
+    <script src="textilate/textillate-master/jquery.textillate.js"> </script>
+    <link rel="stylesheet" href="textilate/animate.css-master/animate.min.css">
     <title> Horizons IX </title>
 </head>
 <body>
-   <nav>
+   <nav class="navigation">
        <ul>
            <li><a href="#"> Sponsors </a></li>
            <li><a href="#"> Programme </a></li>
@@ -21,15 +25,16 @@
             <div class="logo logo-disappear"></div>
             <div class="logo logo-appear">
                 <div class="container">
-                    <div class="element"> <p> <a href="#"> Career Pathways Fair </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Technical Sessions </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Plenary Session </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> PetroOlympic Games </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Cultural Programme </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Excursions to companies </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Round Table </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Energy4me </a> </p> </div>
+                    <div class="element"> <p> <a href="#cpf_block"> Career Pathways Fair </a> </p> </div>
+                    <div class="element"> <p> <a href="#tech-sess_block"> Technical Sessions </a> </p> </div>
+                    <div class="element"> <p> <a href="#plenary_block"> Plenary Session </a> </p> </div>
+                    <div class="element"> <p> <a href="#petroolymic_block"> PetroOlympic Games </a> </p> </div>
+                    <div class="element"> <p> <a href="#culture_block"> Cultural Programme </a> </p> </div>
+                    <div class="element"> <p> <a href="#excursions_block"> Excursions to companies </a> </p> </div>
+                    <div class="element"> <p> <a href="#round-table_block"> Round Table </a> </p> </div>
+                    <div class="element"> <p> <a href="#energy4me_block"> Energy4me </a> </p> </div>
                 </div>
+                <div class="clear"></div>
             </div>
             <div class="logo-mobile">
                 <div class="menu">
@@ -47,21 +52,146 @@
                     </ul>
                 </div>
                 <div class="container">
-                    <div class="element"> <p> <a href="#"> Career Pathways Fair </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Technical Sessions </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Plenary Session </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> PetroOlympic Games </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Cultural Programme </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Excursions to companies </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Round Table </a> </p> </div>
-                    <div class="element"> <p> <a href="#"> Energy4me </a> </p> </div>
+                    <div class="element"> <p> <a href="#cpf_block"> Career Pathways Fair </a> </p> </div>
+                    <div class="element"> <p> <a href="#tech-sess_block"> Technical Sessions </a> </p> </div>
+                    <div class="element"> <p> <a href="#plenary_block"> Plenary Session </a> </p> </div>
+                    <div class="element"> <p> <a href="#petroolymic_block"> PetroOlympic Games </a> </p> </div>
+                    <div class="element"> <p> <a href="#culture_block"> Cultural Programme </a> </p> </div>
+                    <div class="element"> <p> <a href="#excursions_block"> Excursions to companies </a> </p> </div>
+                    <div class="element"> <p> <a href="#round-table_block"> Round Table </a> </p> </div>
+                    <div class="element"> <p> <a href="#energy4me_block"> Energy4me </a> </p> </div>
                 </div>
+                <div class="clear"></div>
             </div>    
         </div>
     </header>
     <main>
-        
+        <div class="org_block">
+            <div class="org-text float-left">
+                <article id="cpf_block" style="margin-top: 50px">
+                    <h1 class="desktop-h1 hcolor-blue tlt1"> Career </h1>
+                    <h1 class="desktop-h1 hcolor-blue tlt2"> Pathways </h1>
+                    <h1 class="desktop-h1 mb hcolor-blue tlt3"> Fair </h1>
+                    <h1 class="mobile-h1 mb hcolor-blue"> Career Pathways Fair</h1>
+                    <p class="org-desc">
+                        An event, which is directed to active students finding. There will be series of lectures and master classes from specialists of different sectors of the industry: downstream, midstream, upstream. Also speakers will share experience of career building during the event.
+                    </p>
+                    <p class="icons"> <a href="http://www.gubkincpf.pe.hu/" target="_blank"> <i class="fa fa-globe" aria-hidden="true"></i> </a></p>
+                </article>
+            </div>
+            <div class="org-image float-left" style="margin-top: 50px">
+                <img src="img/cpf.jpg" alt="Career Pathways Fair">
+            </div>
+        </div>
+        <div class="org_block">
+            <div class="org-text float-left">
+                <article id="tech-sess_block">
+                    <h1 class="desktop-h1 hcolor-green tlt1"> Technical </h1>
+                    <h1 class="desktop-h1 mb hcolor-green tlt2"> Sessions </h1>
+                    <h1 class="mobile-h1 mb hcolor-green"> Technical sessions </h1>
+                    <p class="org-desc">
+                        This year technical sessions consist of two parts: Poster Session and Paper Session. Paper Session is devoted to the presentation, consideration and discussion of the participants’ works including students’, PhD and young professionals’ papers. Gubkin University professors, experts, representatives of oil and gas companies will be invited as the Congress jury. 
+                    </p>
+                    <p class="org-desc">
+                        Poster Session is a presentation of the scientific works of participants at the special stands. Each of the presenters will shortly present their posters to the jury and afterwards everybody will have a possibility to ask questions. It will take place at the special exhibit space.
+                    </p>
+                </article>
+            </div>
+            <div class="org-image float-left">
+                <img src="img/techsess.gif" alt="Technical sessions">
+            </div>
+        </div>
+        <div class="org_block">
+            <div class="org-text float-left">
+                <article id="plenary_block">
+                    <h1 class="desktop-h1 hcolor-brown tlt1"> Plenary </h1>
+                    <h1 class="desktop-h1 mb hcolor-brown tlt2"> Session </h1>
+                    <h1 class="mobile-h1 mb hcolor-brown"> Plenary session </h1>
+                    <p class="org-desc">
+                        Companies’ lectures. Generally the lectures will be held by Platinum, Golden and Silver Sponsors. This year the topic of the Plenary Session will be dedicated to the aspects of Ecology and Safety Environment if oil and gas industry.
+                    </p>
+                </article>
+            </div>
+            <div class="org-image float-left">
+                <img src="img/plenary.gif" alt="Plenary session">
+            </div>
+        </div>
+        <div class="org_block">
+            <div class="org-text float-left">
+                <article id="petroolymic_block">
+                    <h1 class="desktop-h1 hcolor-blue tlt1"> PetroOlympic </h1>
+                    <h1 class="desktop-h1 mb hcolor-blue tlt2"> Games </h1>
+                    <h1 class="mobile-h1 mb hcolor-blue"> PetroOlympic games </h1>
+                    <p class="org-desc">
+                        Intellectual game, created to check and improve knowledge of Congress participants and guests. The game was created by members of Gubkin University SPE Student Chapter in 2012 and was included to program of different events - such as Oil and Gas Horizons Congress, East Meets West Congress and even World Petroleum Congress!
+                    </p>
+                </article>
+            </div>
+            <div class="org-image float-left">
+                <img src="img/petroolympic.gif" alt="PetroOlympic games">
+            </div>
+        </div>
+        <div class="org_block">
+            <div class="org-text float-left">
+                <article id="culture_block">
+                    <h1 class="desktop-h1 hcolor-green tlt1"> Cultural </h1>
+                    <h1 class="desktop-h1 mb hcolor-green tlt2"> Programme </h1>
+                    <h1 class="mobile-h1 mb hcolor-green"> Cultural programme </h1>
+                    <p class="org-desc">
+                        
+                    </p>
+                </article>
+            </div>
+            <div class="org-image float-left">
+                <img src="img/culture.gif" alt="Cultural programme">
+            </div>
+        </div>
+        <div class="org_block">
+            <div class="org-text float-left">
+                <article id="excursions_block">
+                    <h1 class="desktop-h1 hcolor-brown tlt1"> Visiting </h1>
+                    <h1 class="desktop-h1 mb hcolor-brown tlt2"> Companies </h1>
+                    <h1 class="mobile-h1 mb hcolor-brown"> Excursions to companies </h1>
+                    <p class="org-desc">
+                        The main aim of the event is to show students the work of big companies using excursions. Students will know the life inside the companies and members of working society will communicate with potential future workers of the industry.
+                    </p>
+                </article>
+            </div>
+            <div class="org-image float-left">
+                <img src="img/culture.gif" alt="Cultural programme">
+            </div>
+        </div>
+        <div class="org_block">
+            <div class="org-text float-left">
+                <article id="round-table_block">
+                    <h1 class="desktop-h1 hcolor-brown tlt1"> Round </h1>
+                    <h1 class="desktop-h1 mb hcolor-brown tlt2"> Table </h1>
+                    <h1 class="mobile-h1 mb hcolor-brown"> Round table </h1>
+                    <p class="org-desc">
+                        One of the key events being held in order to discuss the development of relations between universities and student sections of SPE from in Russia and Caspian region. Officers' Round-table event doors are opened to the heads of SPE Student Chapters, representatives of the sponsoring companies, as well as members of Professional SPE Sections.
+                    </p>
+                </article>
+            </div>
+            <div class="org-image float-left">
+                <img src="img/roundtable.gif" alt="Round table">
+            </div>
+        </div>
+        <div class="org_block">
+            <div class="org-text float-left">
+                <article id="energy4me_block">
+                    <h1 class="desktop-h1 mb hcolor-blue tlt2"> Energy4me </h1>
+                    <h1 class="mobile-h1 mb hcolor-blue"> Energy4me </h1>
+                    <p class="org-desc">
+                        An event, that provides technical information in energetic, science and technologies, which can be understandable for pupils. It will also make free access to oil & gas knowledge in different languages. There will be master class for pupils with using of visual materials during the Congress.
+                    </p>
+                </article>
+            </div>
+            <div class="org-image float-left">
+                <img src="img/energy4me.gif" alt="Energy4me">
+            </div>
+        </div> 
     </main>
-<script src="animation.js"> </script>    
+<script src="animation.js"> </script>  
+<script src="textilation.js"></script> 
 </body>
 </html>
