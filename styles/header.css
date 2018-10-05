@@ -37,11 +37,13 @@ nav a {
     display: block;
     height: 100%;
     color: white;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 
 nav a:hover {
-    color: rgba(102, 153, 255, 1);
+    color: #a1a1a1;
 }
 
 header {
@@ -54,11 +56,13 @@ header {
 .logo {
     height: 100vh;
     width: 100vw;
+    -webkit-transition: opacity 1.3s;
+    -o-transition: opacity 1.3s;
     transition: opacity 1.3s;
 }
 
 .logo-disappear {
-    background: url(../img/horizons.jpg);
+    background: url(../img/banner_web_en.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
@@ -67,7 +71,7 @@ header {
 }
 
 .logo-appear {
-    background: url(../img/beautiful-grass-landscape-photos-hd-1080P-wallpaper.jpg);
+    background: url(../img/web_fon.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
@@ -79,12 +83,15 @@ header {
 }
 
 .element {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 25%;
     height: 50%;
     float: left;
     background: rgba(60, 60, 60, .65);
-    border: 1px solid rgba(60, 60, 60, .7);
+    border: 1px solid #555;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 
@@ -100,6 +107,7 @@ header {
 
 .element:hover {
     background: rgba(60, 60, 60, .7);
+    -webkit-box-shadow: inset 0 0 500px #111;
     box-shadow: inset 0 0 500px #111;
     border: 1px solid rgba(17, 17, 17, .7);
 }
@@ -115,8 +123,9 @@ header {
 
 .logo-mobile {
     height: 100vh;
-    background: url(../img/beautiful-grass-landscape-photos-hd-1080P-wallpaper.jpg);
+    background: url(../img/web_fon.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     display: none;
 }
@@ -140,6 +149,7 @@ header {
 }
 
 .image {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 50%;
 }
@@ -154,6 +164,7 @@ header {
     line-height: 100px;
     color: white;
     font-size: 34px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: right;
     padding-right: 50px;
@@ -165,7 +176,7 @@ header {
 
 .menu ul {
     text-align: center;
-    background: #2A3437;
+    background: #2A383B;
     display: none;
     position: absolute;
     top: 115px;
@@ -190,7 +201,7 @@ header {
 
 
         
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     header {
         height: 100vh;
     }

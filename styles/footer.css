@@ -1,0 +1,194 @@
+footer {
+    margin-top: 100px;
+    background: #333;
+    min-width: 300px;
+    cursor: default;
+}
+
+.footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer menu,
+.footer section {
+    box-sizing: border-box;
+    width: 33%;
+}
+
+.footer menu ul,
+.footer section article {
+    margin-top: 20px;
+}
+
+.footer menu li {
+    list-style-type: none; 
+    padding: 5px 0 5px 20px;
+}
+
+.footer menu li a,
+.spr a {
+    color: #ccc;
+}
+
+.footer menu li a:hover {
+    color: rgb(82, 90, 136);
+}
+
+.footer section h3 {
+    color: #ccc;
+}
+
+.spr a:hover {
+    color: rgb(82, 90, 136);
+}
+
+.social-networks li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.social-networks li a {
+    color: #ccc;
+}
+
+.contacts p {
+    margin-top: 5px;
+    color: #ccc;
+}
+
+.contacts p span {
+    margin-left: 5px;
+}
+
+.contacts i {
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.fa-facebook:hover {
+    color: rgb(82, 90, 136);
+}
+
+.fa-vk:hover {
+    color: rgb(82, 90, 136);
+}
+
+.fa-instagram:hover {
+    color: rgb(82, 90, 136);
+}
+
+.dev p {
+    margin-top: 5px;
+    color: #ccc;
+}
+
+.dev a {
+   color: #ccc; 
+}
+
+.dev a:hover {
+    color: rgb(82, 90, 136);
+}
+
+.copyright {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    color: #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+.spe_image {
+    text-align: center;
+}
+
+.paypal a {
+    color: #ccc;
+}
+
+.paypal a:hover {
+    color: #FFCC00;
+}
+
+.paypal i {
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 1024px) { 
+    .footer menu,
+    .mobile-hide,
+    .spe_image {
+        display: none;
+    }
+    
+    .footer section {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer section {
+        width: 100%;
+        clear: both;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .footer menu li, 
+    .spr,
+    .footer p {
+        font-size: 20px;
+    }
+    
+    .social-networks li {
+        font-size: 34px
+    }
+    
+    .footer h3 {
+        font-size: 24px;
+    }
+    
+    .spe_image img {
+        width: 300px;
+    }
+    
+    .paypal i {
+        font-size: 50px;
+    }
+    
+    .skrill {
+        width: 80px
+    }
+    
+    .yandex {
+        width: 50px
+    }
+    
+}
+
+@media screen and (min-width: 1900px) {
+    .footer menu li, 
+    .spr,
+    .footer p {
+        font-size: 22px;
+    }
+    
+    .footer h3 {
+        font-size: 26px;
+    }
+    
+    .paypal i {
+        font-size: 60px;
+    }
+}
+
